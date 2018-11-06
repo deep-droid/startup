@@ -8,13 +8,10 @@
 	<head>
 		<title>No Sidebar - Arcana by HTML5 UP</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body>
+	<body class="is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -101,7 +98,7 @@
 				<div id="footer">
 					<div class="container">
 						<div class="row">
-							<section class="3u 6u(narrower) 12u$(mobilep)">
+							<section class="col-3 col-6-narrower col-12-mobilep">
 								<h3>Links to Stuff</h3>
 								<ul class="links">
 									<li><a href="#">Mattis et quis rutrum</a></li>
@@ -113,7 +110,7 @@
 									<li><a href="#">Sed et dapibus mattis</a></li>
 								</ul>
 							</section>
-							<section class="3u 6u$(narrower) 12u$(mobilep)">
+							<section class="col-3 col-6-narrower col-12-mobilep">
 								<h3>More Links to Stuff</h3>
 								<ul class="links">
 									<li><a href="#">Duis neque nisi dapibus</a></li>
@@ -125,24 +122,20 @@
 									<li><a href="#">Rutrum amet varius</a></li>
 								</ul>
 							</section>
-							<section class="6u 12u(narrower)">
+							<section class="col-6 col-12-narrower">
 								<h3>Get In Touch</h3>
 								<form>
-									<div class="row 50%">
-										<div class="6u 12u(mobilep)">
+									<div class="row gtr-50">
+										<div class="col-6 col-12-mobilep">
 											<input type="text" name="name" id="name" placeholder="Name" />
 										</div>
-										<div class="6u 12u(mobilep)">
+										<div class="col-6 col-12-mobilep">
 											<input type="email" name="email" id="email" placeholder="Email" />
 										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
+										<div class="col-12">
 											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
 										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
+										<div class="col-12">
 											<ul class="actions">
 												<li><input type="submit" class="button alt" value="Send Message" /></li>
 											</ul>
@@ -176,9 +169,9 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
 	</body>
